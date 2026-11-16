@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "highwaybuilder",
+  "version": "${version}",
+  "name": "Highway Builder",
+  "description": "Standalone client-side highway builder: digs the tunnel, paves the floor and places railings automatically. Supports straight and diagonal highways.",
+  "authors": ["sniprrfire, Claude"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/highwaybuilder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.highwaybuilder.HighwayBuilderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
